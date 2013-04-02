@@ -3,13 +3,29 @@ GEM
   remote: http://gems.github.com/
   specs:
     cinch (2.0.4)
+    cleverbot (0.1.1)
+      httparty (~> 0.8.0)
+    coderay (1.0.9)
+    httparty (0.8.3)
+      multi_json (~> 1.0)
+      multi_xml
     levenshtein (0.2.2)
+    method_source (0.8.1)
+    multi_json (1.7.2)
+    multi_xml (0.5.3)
     nokogiri (1.5.9)
+    pry (0.9.12)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    slop (3.4.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   cinch
+  cleverbot
   levenshtein
   nokogiri
+  pry
